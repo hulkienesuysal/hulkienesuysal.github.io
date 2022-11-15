@@ -18,7 +18,6 @@ const learning = ["Mobile Development", "Artificial Intelligence"]
 
 ## ⚒️ Technologies & Tools
 <div>
-    ## ⚒️ Technologies & Tools
     <img src="https://skillicons.dev/icons?i=python" title="Python">
     <img src="https://skillicons.dev/icons?i=js" title="JavaScript">
     <img src="https://skillicons.dev/icons?i=nodejs" title="Node.js">
