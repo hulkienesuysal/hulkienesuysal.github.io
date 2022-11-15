@@ -1,4 +1,3 @@
-#gh-dark-mode-only
 
 ## Hi there <img src="https://raw.githubusercontent.com/hulkienesuysal/hulkienesuysal/main/img/hi.gif" width="35">
 
