@@ -1,7 +1,3 @@
-label.textColor = [MDFTextAccessibility textColorOnBackgroundColor:label.backgroundColor
-                                                         textAlpha:1
-                                                              font:nil];
-
 
 ## Hi there <img src="https://raw.githubusercontent.com/hulkienesuysal/hulkienesuysal/main/img/hi.gif" width="35">
 
