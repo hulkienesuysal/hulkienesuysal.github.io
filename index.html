@@ -10,9 +10,7 @@
     <title>Enes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-</head>
 
-<body>
     <style>
         .red {
             background-color: rgb(237, 106, 94);
@@ -37,21 +35,13 @@
             height: 15px;
         }
 
-        .mac {
-            position: absolute;
-            margin-top: 75px;
-            margin-left: 10px;
-        }
-
         .snippet {
-            height: 100vh;
+            margin-bottom: -200px;
+
         }
 
-        html,
         body {
-            margin: 0;
-            margin-top: -42px;
-            overflow: hidden
+            background-color: rgb(41, 44, 51);
         }
 
         i:hover {
@@ -61,20 +51,37 @@
         i {
             color: rgb(245, 191, 79);
         }
+
+        .vr {
+            border-left: 5px solid #e67e22;
+            height: 1630px;
+            position: absolute;
+            margin-top: -1500px;
+        }
     </style>
 
+</head>
 
-
-    <pre class="">
-        <div class="mac d-flex p-2 rounded" style="background-color: rgb(41, 44, 51);" data-bs-toggle="modal" data-bs-target="#myModal">
-            <div class="red"></div>
-            <div class="yellow"></div>
-            <div class="green"></div>
+<body>
+    <nav class="navbar fixed-top" style="margin-top: -10px;">
+        <div class="container-fluid" style="background-color: rgb(41, 44, 51);">
+            <div class="navbar-brand ms-1 mt-3">
+                <div class="mac d-flex p-2 rounded">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+            </div>
+            <div class="ml-auto mt-3">
+                <div href="#" class="me-3" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <i class="fa-solid fa-2x text-success fa-caret-right" style="cursor: pointer;"></i>
+                </div>
+            </div>
         </div>
+    </nav>
 
-        
-        <code class="language-javascript snippet">
-            
+    <pre class="mt-2 snippet">
+        <code class="language-javascript">
  1    console.log("Hi there 👋");
  2
  3    const person = {                                
@@ -136,11 +143,10 @@
 59        spotify: "https://open.spotify.com/user/kdzdl6p3malq4baby6t75bqcr",
 60        email: "hulkienesuysal@gmail.com",
 61    };
-
-
-
         </code>
     </pre>
+
+    <div class="vr"></div>
 
     <!-- The Modal -->
     <div class="modal fade" id="myModal">
